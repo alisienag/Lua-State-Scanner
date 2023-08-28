@@ -14,3 +14,5 @@ Ignore poor quality of coding, I needed a fast and decently reliable way to grab
 How to use:
 
 DLLmain shows how to use this. The variable "LUA_STATE" will be the hooked Lua_State. Just don't forget to update the address for the index2adr and the print function, which both are fairly easy to reverse engineer. Any issues or questions, feel free to ask and I will attempt to fix/aid you.
+
+Notice: This is tailored for the UWP client.
